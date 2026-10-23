@@ -1,0 +1,17 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model weights and large checkpoints
+*.safetensors
+*.ckpt
+*.pth
+*.pkl
+*.onnx
+*.bin
+
+# Local configuration and secrets
+.env
