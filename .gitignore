@@ -1,4 +1,3 @@
-
 # Python
 __pycache__/
 *.py[cod]
@@ -15,3 +14,23 @@ venv/
 
 # Local configuration and secrets
 .env
+.env.*
+!.env.example
+
+# Generated output images
+generated/
+
+# Personal input images
+personimg/
+
+# Local garment images
+outfits/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
